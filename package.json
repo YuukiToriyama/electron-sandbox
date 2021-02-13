@@ -1,16 +1,23 @@
 {
-  "name": "sample",
+  "name": "electron-sandbox",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "./node_modules/electron/dist/electron main.js"
+    "start": "electron ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YUUKIToriyama/electron-sandbox.git"
+  },
+  "author": "YUUKIToriyama",
   "license": "ISC",
-  "dependencies": {
-    "electron": "^9.1.2"
+  "bugs": {
+    "url": "https://github.com/YUUKIToriyama/electron-sandbox/issues"
+  },
+  "homepage": "https://github.com/YUUKIToriyama/electron-sandbox#readme",
+  "devDependencies": {
+    "electron": "^11.2.3"
   }
 }
