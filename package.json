@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/YUUKIToriyama/electron-sandbox#readme",
   "devDependencies": {
-    "electron": "^11.2.3"
+    "electron": "^13.6.6"
   }
 }
